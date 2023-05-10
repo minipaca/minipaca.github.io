@@ -1,1 +1,1 @@
-# manthing-app.github.io
+# minipaca.github.io

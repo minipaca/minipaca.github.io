@@ -118,7 +118,8 @@ small {
   }
 }
 .subtitle {
-  margin-top: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;  
   font-size: 1em;
   font-weight: 600;
 }
@@ -164,7 +165,7 @@ small {
 footer a {
   color: #57e389;
 }
-.code-block {
+.code-block {8
   padding: 0.8rem;
   font-size: 0.8rem;
   border-radius: 0.3rem;

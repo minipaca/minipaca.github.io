@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Minipaca</title>
+    <meta name="title" content="Build cross platform apps with Chez Scheme and GTK4">
+    <meta name="description" content="Build cross platform apps with Chez Scheme and GTK4">
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="intro">
+      <div class="container">
+	<p><img src="logo.png"></p>
+	<h1 class="title">Minipaca</h1>
+	<p class="subtitle">用ChezScheme和GTK4</p>
+	<p class="subtitle">構建跨平台軟體</p>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="notice">
+	      <p>
+		      <a href="https://minipaca.github.io/index.html">English</a>
+		      <a href="https://minipaca.github.io/cn/index.html">中文简体</a>
+		      <a>中文正體</a>
+		      <a>|</a>
+		      <a href="https://minipaca.github.io/tw/dnd.html">下載</a>
+	      </p>
+      </div>
+
+      <br>    
+	    
+      <div class="point">
+	<p><b>構建圖形介面和命令列介面軟體</b></p>
+      </div>
+	    
+      <div class="point">
+	<p><b>所有代碼均使用ChezScheme編寫</b></p>
+      </div>
+	    
+      <div class="point">
+	<p><b>將代碼編譯成一個二進位檔</b></p>
+      </div>
+
+      <div class="point">
+	<p><b>為所有發行版構建安裝包</b></p>
+      </div>   
+	    
+      <div class="point">
+	<p><b>支援 Linux BSD Windows</b></p>
+      </div>   
+	    
+    </div>
+      
+    <div class="join">
+      <div class="container">
+	      
+	<h2>範例App</h2>
+          <p><img src="app-gtk4.png"></p>
+	  <p>這個簡單的HelloWorld軟體是由Minipaca構建的。它在EndeavourOS上使用大約180MB記憶體，運行得非常快。<p>
+	      
+	<br>
+
+	<h2>4步創建App</h2>
+	<p><b>第1步： 安裝 Minipaca</b></p>
+	<p><a href="https://minipaca.github.io/tw/minipaca1.html">Minipaca 安裝包在這裡。</a></p>
+	<p><b>第2步： 建立源檔</b></p>
+	<div class="code-block">
+	  <code>$ minipaca -x app-gtk4</code><br>
+	  <code>$ cd app-gtk4</code>
+    	</div>
+	<p><b>第3步： 編譯</b></p>
+	<div class="code-block">
+	  <code>$ minipaca -g</code>
+    	</div>
+	<p><b>第4步： 打包</b></p>
+	<div class="code-block">
+	  <code>$ minipaca -p</code>
+    	</div>
+	<p>HelloWorld 軟體的安裝包在目錄 p 中。</p>
+	      
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; Minipaca 2022-2024</p>
+    </footer>
+    
+  </body>
+  
+</html>
